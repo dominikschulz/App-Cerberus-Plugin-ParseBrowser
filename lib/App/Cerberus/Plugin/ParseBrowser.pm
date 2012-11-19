@@ -69,6 +69,14 @@ to Cerberus. For instance:
         "os": "iOS"
     }
 
+=method init
+
+This method will initialize this plugin w/ an empty cache.
+
+=method request
+
+This method will try to detect the UA given in the ua argument.
+
 =head1 REQUEST PARAMS
 
 User-Agent information is returned when an User-Agent value is passed in:
